@@ -1,0 +1,41 @@
+{
+  "$schema": "./announcements.schema.json",
+  "version": 1,
+  "updatedAt": "2026-11-19T07:00:00Z",
+  "cards": [
+    {
+      "id": "nuove-app-2026-11",
+      "kind": "integration",
+      "label": {
+        "en": "New apps",
+        "it": "App nuove"
+      },
+      "title": {
+        "en": "AgentMail, Vapi and Telnyx are here",
+        "it": "Arrivano AgentMail, Vapi e Telnyx"
+      },
+      "body": {
+        "en": "Give your bots their own email, phone numbers and calls. Connect them in Apps and choose which bots use them.",
+        "it": "Dai ai tuoi bot la loro email, i loro numeri e le chiamate. Collegale in App e scegli quali bot le usano."
+      },
+      "image": {
+        "apps": [
+          "agentmail",
+          "vapi",
+          "telnyx"
+        ]
+      },
+      "primary": {
+        "label": {
+          "en": "Open Apps",
+          "it": "Apri App"
+        },
+        "action": {
+          "open": "connected_apps"
+        }
+      },
+      "starts": "2026-11-19T00:00:00Z",
+      "ends": "2027-01-31T00:00:00Z"
+    }
+  ]
+}
