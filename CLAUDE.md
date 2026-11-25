@@ -5,9 +5,9 @@ Questa repo non ha codice: è il feed degli avvisi mostrati nella card di Squadd
 
 ## 2. Lavoro buono e lavoro cattivo
 - Buono: un avviso con testo corto in `en` e `it` (come `nuove-app-2026-11`), `starts` e `ends` chiari, `id` in minuscolo con trattini.
-- Buono: togliere gli avvisi scaduti, così il feed resta sotto il limite di 20 card.
+- Buono: togliere gli avvisi scaduti, così il feed resta nel limite di card dello schema.
 - Cattivo: un JSON che non passa lo schema, perché l'app può scartare tutto il feed.
-- Cattivo: campi non previsti (lo schema vieta `additionalProperties`) o testi oltre i limiti (titolo 60, corpo 240 caratteri).
+- Cattivo: campi non previsti (lo schema vieta `additionalProperties`) o testi oltre i limiti dello schema.
 - Cattivo: dimenticare `updatedAt` quando cambi il file.
 
 ## 3. Procedure
